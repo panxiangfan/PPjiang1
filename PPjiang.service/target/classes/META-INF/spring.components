@@ -1,0 +1,2 @@
+com.yr.service.SchoolService=org.springframework.stereotype.Component
+com.yr.service.StudentService=org.springframework.stereotype.Component
