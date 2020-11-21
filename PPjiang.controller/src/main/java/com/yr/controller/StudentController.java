@@ -84,7 +84,7 @@ public class StudentController {
 
 		// 输出流
 		OutputStream out = new FileOutputStream(
-				new File("E:\\eclipse-4.11\\spring\\SpringCrud\\WebContent\\files\\" + fileName));
+				new File("F:\\files\\" + fileName));
 
 		byte b[] = new byte[1024 * 1024 * 10];
 		int i = inputStream.read(b);
@@ -147,7 +147,7 @@ public class StudentController {
 
 		// 杈撳嚭娴�,淇濆瓨鏂囦欢鐨�
 		OutputStream out = new FileOutputStream(
-				new File("E:\\eclipse-4.11\\spring\\SpringCrud\\WebContent\\files\\" + fileName));
+				new File("F:\\files\\" + fileName));
 
 		byte b[] = new byte[1024 * 1024 * 10];
 		int i = inputStream.read(b);
@@ -192,7 +192,7 @@ public class StudentController {
 
 
 		// 鑾峰彇椤圭洰璺緞 寰楀埌鏂囦欢鎵�鍦ㄤ綅缃�
-		String realPath = "E:\\eclipse-4.11\\spring\\SpringCrud\\WebContent\\files\\" + fileName;
+		String realPath = "F:\\files\\" + fileName;
 		if (fileName != null && !fileName.equals("")) {
 			File file = new File(realPath);
 			response.setContentType("application/octet-stream");
@@ -259,7 +259,7 @@ public class StudentController {
 
 			// 杈撳嚭娴�,淇濆瓨鏂囦欢鐨�
 			OutputStream out = new FileOutputStream(
-					new File("E:\\eclipse-4.11\\spring\\SpringCrud\\WebContent\\files\\" + fileName));
+					new File("F:\\files\\" + fileName));
 
 			byte b[] = new byte[1024 * 1024 * 10];
 			int i = inputStream.read(b);
