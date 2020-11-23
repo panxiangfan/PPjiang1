@@ -28,7 +28,7 @@
     <!--json 版本-->
     <jackson.version>2.11.0</jackson.version>
     <!--c3p0 版本-->
-    <c3p0.version>0.9.5</c3p0.version>
+    <c3p0.version>0.9.5.4</c3p0.version>
   </properties>
 
   <dependencies>
