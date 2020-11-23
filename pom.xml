@@ -366,6 +366,8 @@
 
   </dependencies>
 
+
+
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
@@ -412,8 +414,14 @@
     </pluginManagement>
   </build>
 
-
-
-
-
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <url>http://192.168.1.57:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>http://192.168.1.57:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
